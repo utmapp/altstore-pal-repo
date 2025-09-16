@@ -123,12 +123,12 @@
       },
       "versions": [
         {
-          "version": "4.6.2",
-          "date": "2024-12-01",
-          "localizedDescription": "* QEMU v9.1.2 The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* Fixed booting of PPC and i386 VMs\n* Fixed a crash when the main bundle executable is not the same as the currently running executable\n* Fixed a crash on iOS 18 due to namespace collision with internal names\n* Fixed auto-zoom to fill screen not properly working when Display Zoom is used (#6736)",
+          "version": "4.7.4",
+          "date": "2025-09-16",
+          "localizedDescription": "* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\n* **App Intents**: New support for automation with Shortcuts.\n* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\n* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.",
           "downloadURL": "https://pal.getutm.app/adp",
-          "size": 182240665,
-          "buildVersion": "104"
+          "size": 178101407,
+          "buildVersion": "115"
         }
       ]
     }
