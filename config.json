@@ -123,12 +123,12 @@
       },
       "versions": [
         {
-          "version": "4.7.4",
-          "date": "2025-09-16",
-          "localizedDescription": "* **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\n* **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\n* **App Intents**: New support for automation with Shortcuts.\n* **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\n* **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.",
+          "version": "4.7.5",
+          "date": "2026-01-11",
+          "localizedDescription": "* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely\n* Fixed some rare crashes that can happen after a VM stops\n* Fixed parsing of file paths with commas in the name (thanks @nikolan123)\n* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)\n* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)",
           "downloadURL": "https://pal.getutm.app/adp",
-          "size": 178101407,
-          "buildVersion": "114"
+          "size": 178124469,
+          "buildVersion": "118"
         }
       ]
     }
