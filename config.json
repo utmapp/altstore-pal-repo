@@ -4,7 +4,7 @@
   "website": "https://getutm.app",
   "tintColor": "#1a2cc2",
   "featuredApps": [
-      "com.utmapp.UTM-SE"
+    "com.utmapp.UTM-SE"
   ],
   "apps": [
     {
@@ -17,7 +17,7 @@
       "category": "entertainment",
       "iconURL": "https://pal.getutm.app/icon.png",
       "tintColor": "#1a2cc2",
-      "minOSVersion": "14.0",
+      "minOSVersion": "15.0",
       "appPermissions": {
         "privacy": [
           {
@@ -33,102 +33,77 @@
       "screenshots": {
         "iphone": [
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_0.png"
           },
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_1.png"
           },
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_2.png"
           },
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_3.png"
           },
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_4.png"
           },
           {
-            "width": 1290,
-            "height": 2796,
+            "width": 1320,
+            "height": 2868,
             "imageURL": "https://pal.getutm.app/iphone_screen_5.png"
-          },
-          {
-            "width": 1290,
-            "height": 2796,
-            "imageURL": "https://pal.getutm.app/iphone_screen_6.png"
-          },
-          {
-            "width": 1290,
-            "height": 2796,
-            "imageURL": "https://pal.getutm.app/iphone_screen_7.png"
-          },
-          {
-            "width": 1290,
-            "height": 2796,
-            "imageURL": "https://pal.getutm.app/iphone_screen_8.png"
           }
         ],
         "ipad": [
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_0.png"
           },
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_1.png"
           },
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_2.png"
           },
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_3.png"
           },
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_4.png"
           },
           {
-            "width": 2732,
-            "height": 2048,
+            "width": 2752,
+            "height": 2064,
             "imageURL": "https://pal.getutm.app/ipad_screen_5.png"
-          },
-          {
-            "width": 2732,
-            "height": 2048,
-            "imageURL": "https://pal.getutm.app/ipad_screen_6.png"
-          },
-          {
-            "width": 2732,
-            "height": 2048,
-            "imageURL": "https://pal.getutm.app/ipad_screen_7.png"
           }
         ]
       },
       "versions": [
         {
-          "version": "4.7.5",
-          "date": "2026-01-11",
-          "localizedDescription": "* Fixed some rare conditions that could lead to a VM fail to start and spin infinitely\n* Fixed some rare crashes that can happen after a VM stops\n* Fixed parsing of file paths with commas in the name (thanks @nikolan123)\n* ANGLE: Fixed a memory leak issue in the GLES backend (#7546) (thanks @cnnn)\n* ANGLE: Fixed a memory leak issue in the Metal backend (#4958)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)",
+          "version": "5.0.8",
+          "date": "2026-10-21",
+          "localizedDescription": "* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab (requires iOS 26).\n* **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n* **Drive management**: Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS 26.\n* **Redesigned keyboard bar**: The keyboard accessory bar now matches the iOS 26 keyboard, and game controller Options and Home buttons can be mapped.\n* The minimum supported version is now iOS 15.\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.",
           "downloadURL": "https://pal.getutm.app/adp",
-          "size": 178124469,
-          "buildVersion": "118"
+          "size": 199534946,
+          "buildVersion": "128"
         }
       ]
     }
